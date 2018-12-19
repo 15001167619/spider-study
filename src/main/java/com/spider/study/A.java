@@ -37,7 +37,7 @@ public class A {
 
     public static void main(String[] args) {
         httpDownload("http://video.zhihuishu.com/zhs/ablecommons/demo/201806/dddee1c446314b84a26c74a8def3c3c7.mp4","G:\\whs\\files\\download\\123.mp4");
-        httpDownload("https://www.ddyyzz.org/e/DownSys/play/?classid=56&id=43231&pathid=","G:\\whs\\files\\download\\456.mp4");
+        httpDownload("https://img-hw.xvideos-cdn.com/videos/videopreview/5c/4e/74/5c4e74d2ef89c00581d00eb344fecf00_169.mp4","G:\\whs\\files\\download\\456.mp4");
     }
 
     public static boolean httpDownload(String httpUrl, String saveFile) {
