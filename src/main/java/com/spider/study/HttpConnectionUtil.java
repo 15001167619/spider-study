@@ -65,6 +65,9 @@ public class HttpConnectionUtil {
             while ((size = bin.read(buf)) != -1) {
                 len += size;
                 out.write(buf, 0, size);
+                // 打印下载百分比
+                // System.out.println("下载了-------> " + len * 100 / fileLength +
+                // "%\n");
             }
             bin.close();
             out.close();
